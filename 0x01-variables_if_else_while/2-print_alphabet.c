@@ -3,19 +3,16 @@
  * main - Entry point
  *
  * Return: Every time 0 (Success)
- *
  */
 
-int main()
+int main(void)
 {
-	char c;
+    char c;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	putchar('\n');
-	return(0);
+    for (c = 'a'; c <= 'z'; c++)
+    {
+        putchar(c);
+    }
+    putchar('\n');
+    return (0);
 }
