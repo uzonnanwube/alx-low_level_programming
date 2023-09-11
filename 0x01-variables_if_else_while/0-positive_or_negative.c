@@ -13,7 +13,6 @@ int main(void)
 
     srand(time(0));
     n = rand() % 21 - 10; /* Generate a random number between -10 and 10 */
-
     if (n > 0)
         printf("%d is positive\n", n);
     else if (n == 0)
@@ -21,5 +20,4 @@ int main(void)
     else
         printf("%d is negative\n", n);
     return (0);
-}
-	
+}	
