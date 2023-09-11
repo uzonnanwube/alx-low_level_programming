@@ -2,7 +2,7 @@
 /**
 * main - print hexadecimal numbers
 *
-* Return only 0 (success)
+* Return: only 0 (success)
 *
 */
 int main(void)
