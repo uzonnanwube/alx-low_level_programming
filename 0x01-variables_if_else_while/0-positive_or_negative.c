@@ -4,7 +4,9 @@
 
 /**
  * main - Entry point programming
+ *
  * Return:  0 (Success)
+ *
  */
 int main()
 {
