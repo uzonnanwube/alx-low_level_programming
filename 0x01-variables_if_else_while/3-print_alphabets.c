@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main -program entry point
+ *
  * Return: All the time 0 (Success)
+ *
  */
 
 int main ()
