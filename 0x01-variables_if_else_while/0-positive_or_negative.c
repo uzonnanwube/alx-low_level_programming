@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point programming
+ * main - Entry point
  *
- * Return:  0 (Success)
- *
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -22,4 +21,5 @@ int main(void)
     else
         printf("%d is negative\n", n);
     return (0);
-}	
+}
+	
