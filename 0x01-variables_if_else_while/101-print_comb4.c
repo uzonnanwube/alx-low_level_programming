@@ -1,9 +1,10 @@
 #include <stdio.h>
-/*
+/**
+ * main - Entry point for the programe print combinations for three two-digits numbers
  *
- * main - prints numbers in threes separated by commas and spaces
+ *This programe generates and prints combination of three two-digit numbers separated by commas and spaces.
  *
- * Return: 0
+ * Return: Always  0 (Success)
  *
 */
 int main(void)
