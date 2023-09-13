@@ -36,10 +36,11 @@ int main(void)
 				num3++;
 			}
 			num2++;
-		}num1++;
+		}
+		num1++;
 		num2 = '0';
 	}
 	putchar('\n');
 
 	return (0);
-}	
+}
