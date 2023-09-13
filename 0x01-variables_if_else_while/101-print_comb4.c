@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  *
- * main - print numbers in 3s separated by , and space
+ * main - prints numbers in threes separated by commas and spaces
  *
  * Return: 0
  *
