@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - Entry point
+* main - prints two digits with comma and space
 *
 * Return: Every time 0 (Success)
 *
@@ -21,7 +21,7 @@ int main(void)
 				putchar(num_1);
 				putchar(num_2);
 				if (num_1 != '8' || (num_2 == '8' && num_2 != '9'))
-				{	
+			{
 					putchar(',');
 					putchar(' ');
 				}
@@ -32,5 +32,7 @@ int main(void)
 		num_2 = '0';
 	}
 	putchar('\n');
-	return(0);
+
+	return (0);
+
 }
