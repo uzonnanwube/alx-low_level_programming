@@ -1,10 +1,10 @@
 #include "main.h"
+
 /**
  * main - print _putchar
  * is written by Uzo
  * Return: 0 (success)
 */
-
 int main(void)
 {
 _putchar('_');
