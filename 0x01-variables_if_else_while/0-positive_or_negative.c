@@ -14,7 +14,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() % 21 - 10; /* Generate a random number between -10 and 10 */
+	n = rand() % 1999999999 - 999999999; /* Generate a random number between 1999999999 - 999999999 */
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
