@@ -15,17 +15,24 @@ void times_table(void)
 			answer = i * j;
 
 			if (j == 0)
+			{
 				_putchar('0');
+			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
 
 				if (answer < 10)
+				{
 					_putchar(' ');
+				}
+				else
+				{
+					_putchar('0' + (answer / 10));
+				}
 
-				_putchar((answer / 10) + '0');
-				_putchar((answer % 10) + '0');
+				_putchar('0' + (answer % 10));
 			}
 		}
 		_putchar('\n');
